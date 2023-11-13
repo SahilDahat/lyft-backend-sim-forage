@@ -1,5 +1,6 @@
 from battery.battery import Battery
 
+
 class SpindlerBattery(Battery):
     def __init__(self, current_date, last_service_date):
         self.current_date = current_date
